@@ -37,11 +37,10 @@ int main(int argc, const char * argv[]) {
     multipleHandler->add(std::make_shared<MultipleOfHandler>(17));
     multipleHandler->add(std::make_shared<MultipleOfHandler>(19));
     
-    std::cout << "10 is " << multipleHandler->handle(10) << std::endl;
-    std::cout << "105 is " << multipleHandler->handle(105) << std::endl;
-    std::cout << "25 is " << multipleHandler->handle(25) << std::endl;
-    std::cout << "-25 is " << numberHandler->handle(-25) << " and " << multipleHandler->handle(-25) << std::endl;
-    std::cout << "361 is " << multipleHandler->handle(361) << std::endl;
+    std::cout << "10 is "   << multipleHandler->handle(10)  << std::endl;
+    std::cout << "105 is "  << multipleHandler->handle(105) << std::endl;
+    std::cout << "25 is "   << multipleHandler->handle(25)  << std::endl;
+    std::cout << "-25 is "  << numberHandler->handle(-25)   << " and " << multipleHandler->handle(-25) << std::endl;
     
     auto suffixHandler = SuffixHandler(11, "th");
     suffixHandler.add(std::make_shared<SuffixHandler>(12, "th"));
@@ -59,6 +58,10 @@ int main(int argc, const char * argv[]) {
 
     for(auto ii=1; ii <= 101; ++ii)
         std::cout << ii << " is " << suffixHandler.handle(ii) << std::endl;
+
+    auto num = -361;
+    std::cout << num << " is "  << numberHandler->handle(num) << " and " << multipleHandler->handle(num) << " and " << suffixHandler.handle(num) << std::endl;
+
     
     return 0;
 }

@@ -19,7 +19,6 @@ public:
     virtual ~BaseChain() = default;
     virtual void add(std::shared_ptr<BaseChain>);
     virtual std::string handle(int);
-    virtual std::string handle(std::string);
     virtual std::shared_ptr<BaseChain> getNext();
 private:
     std::shared_ptr<BaseChain> _next;

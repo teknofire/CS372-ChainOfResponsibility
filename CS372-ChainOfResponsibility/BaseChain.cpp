@@ -25,8 +25,3 @@ std::string BaseChain::handle(int number)
 {
     return "unknown";
 }
-
-std::string BaseChain::handle(std::string text)
-{
-    return "unknown";
-}

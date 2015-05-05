@@ -8,6 +8,7 @@
 
 #include "SuffixHandler.h"
 #include <sstream>
+#include <stdlib.h>
 
 SuffixHandler::SuffixHandler(int number, std::string suffix): _number(number), _suffix(suffix)
 {
@@ -19,7 +20,7 @@ std::string SuffixHandler::handle(int number)
     std::stringstream buffer;
     
     buffer << number;
-    if (number == _number || (number % 10) == _number)
+    if (abs(number) == _number || (abs(number) % 10) == _number)
     {
         buffer << _suffix;
         return buffer.str();
