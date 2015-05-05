@@ -13,6 +13,7 @@
 		A3F56C061AF87FD500A26325 /* PositiveHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3F56C041AF87FD500A26325 /* PositiveHandler.cpp */; };
 		A3F56C091AF8808800A26325 /* ZeroHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3F56C071AF8808800A26325 /* ZeroHandler.cpp */; };
 		A3F56C0C1AF8923A00A26325 /* MultipleOfHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3F56C0A1AF8923A00A26325 /* MultipleOfHandler.cpp */; };
+		A3F56C121AF89B5A00A26325 /* SuffixHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A3F56C101AF89B5A00A26325 /* SuffixHandler.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		A3F56C081AF8808800A26325 /* ZeroHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZeroHandler.h; sourceTree = "<group>"; };
 		A3F56C0A1AF8923A00A26325 /* MultipleOfHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleOfHandler.cpp; sourceTree = "<group>"; };
 		A3F56C0B1AF8923A00A26325 /* MultipleOfHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleOfHandler.h; sourceTree = "<group>"; };
+		A3F56C101AF89B5A00A26325 /* SuffixHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuffixHandler.cpp; sourceTree = "<group>"; };
+		A3F56C111AF89B5A00A26325 /* SuffixHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuffixHandler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				A3F56C051AF87FD500A26325 /* PositiveHandler.h */,
 				A3F56C0A1AF8923A00A26325 /* MultipleOfHandler.cpp */,
 				A3F56C0B1AF8923A00A26325 /* MultipleOfHandler.h */,
+				A3F56C101AF89B5A00A26325 /* SuffixHandler.cpp */,
+				A3F56C111AF89B5A00A26325 /* SuffixHandler.h */,
 			);
 			path = "CS372-ChainOfResponsibility";
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 				A3F56C031AF87B9D00A26325 /* NegativeHandler.cpp in Sources */,
 				A3F56C061AF87FD500A26325 /* PositiveHandler.cpp in Sources */,
 				A3F56C001AF8781500A26325 /* BaseChain.cpp in Sources */,
+				A3F56C121AF89B5A00A26325 /* SuffixHandler.cpp in Sources */,
 				A3F56BF81AF877CE00A26325 /* main.cpp in Sources */,
 				A3F56C0C1AF8923A00A26325 /* MultipleOfHandler.cpp in Sources */,
 			);
