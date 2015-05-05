@@ -1,7 +1,7 @@
 # CS372-ChainOfResponsibility
 
-Will Fisher
-05/04/2015
+Will Fisher<br/>
+05/04/2015<br/>
 CS372 Software Construction
 
 This is the take home final for Fall CS372 Class.  This is an implementation of the Chain of Responsibility design pattern.
